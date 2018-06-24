@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   key_name = ""
   val = 0
-  if name_hash.empty?(name_hash)
+  if name_hash.empty?
     return nil
   end
   count = 0
